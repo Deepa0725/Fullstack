@@ -8,20 +8,37 @@
 <body>
     <h2>Signup Form</h2>
 
-    <form action="" method="get">
+    <form action="./Form2.html" target="_self" method="post" >
+        <!-- By using GET method all the values are displayed in URL
+        but using POST method values are not displayed in URL -->
         <label for="FirstName">FirstName:</label>
         <input type="text" id="fname" name="fname">
+        <br>
 
         <label for="Lastname">Lastname:</label>
         <input type="text" id="lname" name="lname">
+        <br>
 
         <label for="Age">Age:</label>
         <input type="number" name="age" id="age">
         <br>
 
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required>
+        <br>
+
+        <label for="password">Password</label>
+        <input type="password" name="password" id="paasword" required>
+        <br>
+
+        <label for="confirm password">confirm Password</label>
+        <input type="password" name="confirmpassword" id="confirmpassword" required>
+        <br>
+
         <button onclick="" type="button">submit</button>
         <br>
         <hr>
+
         <label for="Radio">Option1</label>
         <input type="radio" name="radio" id="radio">
 
@@ -46,7 +63,11 @@
 <input type="checkbox" name="opt3" id="opt3">
 <br>
 
+<input type="submit" value="submit">
+        <br>
 
     </form>
+
 </body>
+
 </html>
