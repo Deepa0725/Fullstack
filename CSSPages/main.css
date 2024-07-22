@@ -1,0 +1,25 @@
+p {
+    text-align: center;
+    color: red;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+  } 
+
+  h1{
+    text-align: center;
+    color: rgb(25, 0, 255);
+  }
+
+  h2{
+    text-align: center;
+    color: rgb(255, 0, 162);
+  }
+
+
+  body {
+    background-color: lightblue;
+  }
+#name{
+    color: rgb(244, 255, 127);
+}
+  
