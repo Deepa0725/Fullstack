@@ -1,0 +1,30 @@
+h1{
+    color:deeppink;
+}
+
+p{
+    color: rgb(#7434ff);
+    background-color: rgb(100, 100, 210);
+    opacity: 10;
+}
+p
+{
+text-align: center;
+font-size: 50px;
+border: 5px solid tomato;
+border-width: 10px 10px 10px 10px;
+border-color: rgb(159, 14, 48);
+}
+
+p.center
+{
+    font-weight: 800;
+}
+
+.imageClass
+{
+    background-image:url("../images/paris.jpeg");
+    background-size: cover;
+    height: 1500px;
+    width: 1250px;
+}
