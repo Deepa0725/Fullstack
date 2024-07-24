@@ -72,8 +72,17 @@ text-transform: capitalize;
 text-indent: 20px;
 }
 
-.atag{
+/* .atag{
     text-decoration: none;
+} */
+
+.atag:hover{
+color: darkgreen;
+}
+
+.atag:visited{
+color: rgb(52, 22, 247);
+background-color: darkkhaki;
 }
 
 .paragraph4{
@@ -90,4 +99,21 @@ text-shadow: 2px 2px 2px red;
 font-weight: 100;
 font-family: 'Times New Roman', Times, serif;
 font-size: larger;
+}
+
+
+.fa-cloud{
+font-size: 200px;
+color: blueviolet;
+}
+
+.fa-heart{
+    font-size: 200px;
+    color: rgb(226, 52, 43);
+    }
+
+.fa-car  
+{
+    font-size: 200px;
+    color:rgb(255, 196, 0);
 }
