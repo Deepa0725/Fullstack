@@ -72,9 +72,9 @@ text-transform: capitalize;
 text-indent: 20px;
 }
 
-/* .atag{
+.atag{
     text-decoration: none;
-} */
+}
 
 .atag:hover{
 color: darkgreen;
